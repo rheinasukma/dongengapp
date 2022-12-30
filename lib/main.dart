@@ -1,5 +1,5 @@
 import 'package:dongengapp/about.dart';
-import 'package:dongengapp/audio.dart';
+import 'package:dongengapp/AudioPage.dart';
 import 'package:dongengapp/video.dart';
 import 'package:dongengapp/home.dart';
 import 'package:flutter/material.dart';
@@ -60,9 +60,11 @@ class MyHome extends StatelessWidget {
             MaterialButton(
               onPressed: () {
                 Navigator.push(
+                    //push
+                    // wijed kontainer
                     // context, MaterialPageRoute(builder: (context) => About()));
                     context,
-                    MaterialPageRoute(builder: (context) => Audio()));
+                    MaterialPageRoute(builder: (context) => Home()));
               },
               child: Container(
                 width: 352,
